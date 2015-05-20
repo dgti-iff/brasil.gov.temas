@@ -175,7 +175,7 @@
 /* Tiles
    ========================================================================== */
 
-.tile a { color: #162937 !important; }
+.tile a { color: #333 !important; }
 
 
 /* ==========================================================================
@@ -408,4 +408,21 @@ button.context.reply-to-comment-button {
     clear: both;
     color: #000000;
     padding-top: 5px;
+}
+
+
+/*
+ * IFF
+ */
+
+#content a:hover, dl.portlet a:hover {
+    color: #333 !important;
+}
+
+.tile p {
+    color: #333 !important;
+}
+
+.portletNavigationTree > .portletItem a span, .item-central .link-central {
+    color: #333 !important;
 }
