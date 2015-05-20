@@ -17,6 +17,13 @@
   <!-- Temas -->
   <plone:static
       type="theme"
+      name="iff"
+      directory="themes/iff"
+      />
+
+  <!-- Temas -->
+  <plone:static
+      type="theme"
       name="amarelo"
       directory="themes/amarelo"
       />
