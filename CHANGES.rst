@@ -1,11 +1,37 @@
 Histórico de Alterações
 ------------------------
 
+1.1 (2015-09-03)
+^^^^^^^^^^^^^^^^^^
+
+* Reduzindo imagens pelo tinypng. Redução em 59% do total.
+  [caduvieira]
+* Muda o nome de brasil.png para forçar envio de nova imagem (closes `#121`_).
+  [caduvieira]
+* Atualiza a imagem do Brasil do rodapé para imagem 'Brasil Pátria Educadora' (closes `#109`_).
+  [caduvieira]
+* Adiciona cores nos links dos tiles e retira o azul dos chapéus.
+  [caduvieira]
+* Corrigi erro em que as telas de 'Preferências Pessoais', 'Informação Pessoal'
+  e 'Painel Pessoal' apareciam vazias. (closes `#113`_)
+  [idgserpro]
+* Adicionadas regras para inserir as traduções das viewlets de copyright do
+  Plone, "Voltar para o topo" e seção de acessibilidade de brasil.gov.portal
+  no tema.
+  [idgserpro]
+* Adicionada estrutura nas regras de Diazo permitindo inserção de links de
+  línguas como actions em "site_actions": basta criar com o mesmo id hoje
+  presente nas regras css (language-en e language-es). Dessa forma, evita-se
+  customização do tema apenas para inserção desses links.
+  [idgserpro]
+* Ajuste na ordem da barra e dos links de acessibilidade
+  [caduvieira]
+
 1.0.7 (2014-12-05)
 ^^^^^^^^^^^^^^^^^^
 
 * Ajuste de id 'footer-brasil' para preparação para o rodapé dinâmico.
-  [caduvireira]
+  [caduvieira]
 * Adiciona estilo básico para comentários do Plone.
   [dbarbato]
 * Retorna a marca do Governo Federal no rodapé.
@@ -69,7 +95,7 @@ Histórico de Alterações
   [rodfersou][rennanrodrigues]
 * Ajusta estilo de Menu de idiomas em cada cor de tema.
   [taniaa]
-* Ajusta texto para atalho ao site de idiomas no topo de cada cor de tema. 
+* Ajusta texto para atalho ao site de idiomas no topo de cada cor de tema.
   [taniaa]
 * Corrige o nome dos temas para Portal Padrão.
   [dbarbato]
@@ -145,14 +171,8 @@ Histórico de Alterações
 * Revisão de estilos da capa de editoria (closes `#25`_). [rennanrodrigues]
 * Correção de layout / css no rodapé da pagina  (closes `#19`_).
   [felipeduardo]
-* Realizado diversas alterações no estilo do tipo NITF, entre elas:
-
-  * Alterações de fonte.
-  * Alterações de espaçamento.
-  * Alterações de alinhamento.
-  * Alterações de tamanho de quebra de linha.
-
-  (closes `#18`_). [rennanrodrigues] [rodfersou]
+* Realizado diversas alterações no estilo do tipo NITF (fonte, espaçamento, alinhamento e tamanho de quebra de linha) (closes `#18`_).
+  [rennanrodrigues, rodfersou]
 * Correções de layout para o cabecalho do portal.  (closes `#17`_).
   [felipeduardo]
 * Correção do bug no click dos links para Firefox.  (closes `#11`_).
@@ -231,3 +251,6 @@ Histórico de Alterações
 .. _`#101`: https://github.com/plonegovbr/brasil.gov.temas/issues/101
 .. _`#103`: https://github.com/plonegovbr/brasil.gov.temas/issues/103
 .. _`#106`: https://github.com/plonegovbr/brasil.gov.temas/issues/106
+.. _`#109`: https://github.com/plonegovbr/brasil.gov.temas/issues/109
+.. _`#113`: https://github.com/plonegovbr/brasil.gov.temas/issues/113
+.. _`#121`: https://github.com/plonegovbr/brasil.gov.temas/issues/121
